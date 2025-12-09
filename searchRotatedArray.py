@@ -30,3 +30,6 @@ if __name__ == "__main__":
     target = 0
     print("Output is : ", sol.search(nums, target))
     
+    nums1 = [5,1,3]
+    target1 = 1
+    print("Output is : ", sol.search(nums1, target1))

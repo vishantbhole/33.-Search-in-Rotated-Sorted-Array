@@ -22,3 +22,11 @@ class Solution:
                 else:
                     l = mid + 1
         return -1
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    nums = [4,5,6,7,0,1,2]
+    target = 0
+    print("Output is : ", sol.search(nums, target))
+    
